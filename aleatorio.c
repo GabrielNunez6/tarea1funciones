@@ -114,3 +114,13 @@ bool compararValor(int numero1, int numero2) {
         return false;
     }
 }
+bool compararPalo(char palo1, char palo2) {
+
+    if (palo1==palo2) {
+        printf("True");
+        return true;
+    } else {
+        printf("false");
+        return false;
+    }
+}

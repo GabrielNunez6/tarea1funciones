@@ -17,6 +17,7 @@ char paloAleatorio();
 int numeroCartaAleatorio();
 void crearCarta(int numero, char palo);
 bool compararValor(int numero1, int numero2);
+bool compararPalo(char palo1, char palo2);
 
 
 #endif //ALEATORIO_H

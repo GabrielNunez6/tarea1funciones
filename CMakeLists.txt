@@ -8,4 +8,5 @@ add_executable(tarea1funciones main.c
         aleatorio.h
         ejercicio2.c
         Ejercicio3.c
-        Ejercicio4.c)
+        Ejercicio4.c
+        Ejercicio5.c)
