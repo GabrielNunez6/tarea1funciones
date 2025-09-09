@@ -13,5 +13,6 @@ int numeroAleatorioConRango(int minimo,int maximo);
 int lanzarDado();
 void initAleatorio();
 char paloAleatorio();
+int numeroCartaAleatorio();
 
 #endif //ALEATORIO_H

@@ -62,3 +62,9 @@ char paloAleatorio(){
     }
     return palo;
 }
+int numeroCartaAleatorio() {
+    int numero;
+    numero=numeroAleatorio(13);
+    return numero+1;
+
+}
