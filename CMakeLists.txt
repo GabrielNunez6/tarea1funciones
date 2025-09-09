@@ -10,4 +10,5 @@ add_executable(tarea1funciones main.c
         Ejercicio3.c
         Ejercicio4.c
         Ejercicio5.c
-        ejercicio6.c)
+        ejercicio6.c
+        ejercicio7.c)

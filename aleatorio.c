@@ -127,3 +127,38 @@ bool compararPalo(char palo1, char palo2) {
 int sumarValor(int numero1, int numero2, int numero3) {
     return numero1+numero2+numero3;
 }
+void crearCartaCambio(int numero, char palo) {
+    switch (numero) {
+        case 1:
+            printf("Carta: J");
+            break;
+        case 11:
+            printf("Carta: A ");
+            break;
+        case 12:
+            printf("Carta: Q");
+            break;
+        case 13:
+            printf("Carta: K");
+            break;
+        default:
+            printf("El valor es: %d", numero);
+
+    }
+    printf("\n");
+    switch (palo) {
+        case 'T':
+            printf("trebol");
+            break;
+        case 'C':
+            printf("Corazon");
+            break;
+        case 'P':
+            printf("Picas");
+            break;
+        case 'D':
+            printf("Diamante");
+            break;
+
+    }
+}
