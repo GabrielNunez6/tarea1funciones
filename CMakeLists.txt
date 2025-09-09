@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 4.0)
+project(tarea1funciones C)
+
+set(CMAKE_C_STANDARD 23)
+
+add_executable(tarea1funciones main.c
+        aleatorio.c
+        aleatorio.h)
