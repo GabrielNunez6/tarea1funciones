@@ -68,3 +68,39 @@ int numeroCartaAleatorio() {
     return numero+1;
 
 }
+
+void crearCarta(int numero, char palo) {
+    switch (numero) {
+        case 1:
+            printf("Carta: A");
+            break;
+            case 11:
+            printf("Carta: J ");
+            break;
+            case 12:
+            printf("Carta: Q");
+            break;
+            case 13:
+            printf("Carta: K");
+            break;
+        default:
+            printf("El valor es: %d\n", numero);
+
+    }
+    printf("\n");
+    switch (palo) {
+        case 'T':
+            printf("trebol");
+            break;
+            case 'C':
+            printf("Corazon");
+            break;
+            case 'P':
+            printf("Picas");
+            break;
+            case 'D':
+            printf("Diamante");
+            break;
+
+    }
+}

@@ -3,7 +3,7 @@
 //
 // Funciones que contienen comportamientos que requiere
 // números aleatorios.
-
+#include <stdio.h>
 #ifndef ALEATORIO_H
 #define ALEATORIO_H
 #include <stdlib.h>
@@ -14,5 +14,7 @@ int lanzarDado();
 void initAleatorio();
 char paloAleatorio();
 int numeroCartaAleatorio();
+void crearCarta(int numero, char palo);
+
 
 #endif //ALEATORIO_H
