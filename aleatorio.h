@@ -3,6 +3,7 @@
 //
 // Funciones que contienen comportamientos que requiere
 // números aleatorios.
+#include <stdbool.h>
 #include <stdio.h>
 #ifndef ALEATORIO_H
 #define ALEATORIO_H
@@ -15,6 +16,7 @@ void initAleatorio();
 char paloAleatorio();
 int numeroCartaAleatorio();
 void crearCarta(int numero, char palo);
+bool compararValor(int numero1, int numero2);
 
 
 #endif //ALEATORIO_H

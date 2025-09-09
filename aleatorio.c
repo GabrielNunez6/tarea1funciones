@@ -84,7 +84,7 @@ void crearCarta(int numero, char palo) {
             printf("Carta: K");
             break;
         default:
-            printf("El valor es: %d\n", numero);
+            printf("El valor es: %d", numero);
 
     }
     printf("\n");
@@ -102,5 +102,15 @@ void crearCarta(int numero, char palo) {
             printf("Diamante");
             break;
 
+    }
+}
+bool compararValor(int numero1, int numero2) {
+
+    if (numero1==numero2) {
+        printf("True");
+        return true;
+    } else {
+        printf("false");
+        return false;
     }
 }
